@@ -1,0 +1,23 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "taskName": "Example 1",
+            "isBuildCommand": true,
+            "command": '. ".\\Examples\\Example1\\Example1.ps1",
+            "isShellCommand": true,
+            "showOutput": "always",
+            "problemMatcher": []
+        },
+        {
+            "taskName": "Example 2",
+            "isBuildCommand": true,
+            "command": '. ".\\Examples\\Example2\\Example2.ps1",
+            "isShellCommand": true,
+            "showOutput": "always",
+            "problemMatcher": []
+        }
+    ]
+}
